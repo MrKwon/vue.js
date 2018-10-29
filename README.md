@@ -1,2 +1,4 @@
 # vue.js
-Vue.js repository
+
+
+**2018-10-29** 기준으로 node.js에서 독립해서 새로운 
