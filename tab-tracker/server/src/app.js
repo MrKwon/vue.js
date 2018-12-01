@@ -11,9 +11,9 @@ app.use(morgan('combined')) // print logs
 app.use(bodyParser.json()) // make express easily use json data
 app.use(cors()) // allow any host or client to access this
 
-app.get('/status', (req, res) => {
+app.post('/register', (req, res) => {
   res.send({
-    message: 'hello world!'
+    message: `Hello ${req.body.email}! Your user was registered! Have fun!`
   })
 })
 
